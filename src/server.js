@@ -101,7 +101,6 @@ server.post("/savepoint", (req, res) => {
 
 server.get("/search", (req, res) => {
   
-
   const search = req.query.search
   if(search  == ""){
     //Pesquisa Vazia
